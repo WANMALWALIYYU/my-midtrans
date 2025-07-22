@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/logo-top.png" type="image/png">
+        <title>Midtrans | Solusi Payment Gateway Indonesia Terlengakp</title>
+        <link rel="stylesheet" href="midtrans.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <div class="message position-relative">
+            <img src="assets/penolong.png" alt="penolong imgage"
+                class="position-fixed bottom-0 end-0 m-3"
+                style="width: 100px;z-index: 100;">
+        </div>
+        <div class="navbar-section">
+            <div class="navbar-container d-flex justify-content-between me-5">
+                <div class="nav-logo pt-4">
+                    <img src="assets/logo.svg" class="mb-0" alt="logo image" width="200px">
+                    <p class="nav-quote mx-5" style="font-size: 12px;">bagian
+                        dari <span>goto</span> financial</p>
+                </div>
+                <div class="nav-link d-flex align-items-center">
+                    <div class="penggunaan dropdown">
+                        <button class="btn dropdown-toggle border-0"
+                            type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Penggunaan
+                        </button>
+                        <ul class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item"
+                                    href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another
+                                    action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else
+                                    here</a></li>
+                        </ul>
+                    </div>
+                    <div class="Produk dropdown">
+                        <button class="btn dropdown-toggle border-0"
+                            type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Produk
+                        </button>
+                        <ul class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item"
+                                    href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another
+                                    action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else
+                                    here</a></li>
+                        </ul>
+                    </div>
+                    <div class="panduan dropdown">
+                        <button class="btn dropdown-toggle border-0"
+                            type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Panduan
+                        </button>
+                        <ul class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item"
+                                    href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another
+                                    action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else
+                                    here</a></li>
+                        </ul>
+                    </div>
+                    <div class="biaya mx-3">
+                        <a href="#" class="text-decoration-none">Biaya</a>
+                    </div>
+                    <div class="hubungi-kami mx-3">
+                        <a href="#" class="text-decoration-none">Hubungi
+                            Kami</a>
+                    </div>
+                </div>
+                <div
+                    class="nav-auth d-flex justify-content-center align-items-center">
+                    <div class="id dropdown">
+                        <button class="btn dropdown-toggle fw-bold border-0"
+                            type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Id
+                        </button>
+                        <ul class="dropdown-menu"
+                            aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item"
+                                    href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another
+                                    action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else
+                                    here</a></li>
+                        </ul>
+                    </div>
+                    <div class="login mx-3">
+                        <a href="#" class="text-decoration-none fw-bold">Log
+                            In</a>
+                    </div>
+                    <div class="daftar">
+                        <button class="btn text-white fw-bold border-0">Daftar
+                            Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-section">
+            <div class="home-container container py-5">
+                <div class="row gap-0">
+                    <div class="col home-quote pt-5">
+                        <h2 class="lh-base mb-4">Payment Gateway Indonesia
+                            Terlengkap untuk Bisnis Anda</h2>
+                        <p class="mb-5">Bersama Midtrans, fokus pada bisnis Anda
+                            untuk kelola semua pembayaran dan kirim dana
+                            (disbursement) dengan mudah.</p>
+                        <div class="daftar">
+                            <button
+                                class="btn text-white fw-bold border-0">Daftar
+                                Sekarang</button>
+                        </div>
+                    </div>
+                    <div class="col home-img">
+                        <img src="assets/image.avif" alt class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="move-image-section position-relative d-grid overflow-hidden">
+            <div class="move-image d-flex pt-5 gap-5">
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/ada-kami.png" alt="ada kami image"
+                        class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/google.png" alt="google image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/halodoc.png" alt="halodoc image"
+                        class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/pintu.png" alt="pintu image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/pluang.png" alt="pluang image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/ruang-guru.png" alt="ruang-guru image"
+                        class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/tiket.png" alt="tiket image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/tiktok.png" alt="tiket image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/tokped.png" alt="tokped image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/bibit.png" alt="bibit image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/blibli.png" alt="blibli image" class="img-fluid">
+                </div>
+                <div
+                    class="move-img d-flex justify-content-center align-items-center shadow">
+                    <img src="assets/move-img/code.png" alt="code image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <div class="fitur-section">
+            <h2 class="text-center mb-5">Fitur Unggulan</h2>
+            <div class="fitur-container container">
+                <div class="fitur-box row g-4">
+                    <div class="col-md-4">
+                        <div class="fitur-card bg-white shadow p-4 h-100">
+                            <div class="fitur-header d-flex gap-4 mb-5">
+                                <img src="assets/fitur-img/card.png" alt="fitur card image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Metode pembayaran
+                                    terlengkap</h5>
+                            </div>
+                            <p class="text-black-50">Tersedia 25 metode
+                                pembayaran mulai dari GoPay, QRIS, bank
+                                transfer, kartu kredit/debit, e-wallet, dan
+                                masih banyak lagi.</p>
+                            <a href="#">Pelajari lebih lanjut <i
+                                    class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fitur-card bg-white shadow p-4 h-100">
+                            <div class="fitur-header d-flex gap-4 mb-5">
+                                <img src="assets/fitur-img/chat.png" alt="fitur chat image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Terima pembayaran
+                                    melalui chat</h5>
+                            </div>
+                            <p class="text-black-50">Tetap bisa terima
+                                pembayaran online meskipun jualan via aplikasi
+                                chat. Mudah dan tanpa integrasi.</p>
+                            <a href="#">Pelajari lebih lanjut <i
+                                    class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fitur-card bg-white shadow p-4 h-100">
+                            <div class="fitur-header d-flex gap-4 mb-5">
+                                <img src="assets/fitur-img/money.png" alt="fitur money image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Kirim dana
+                                    sekaligus</h5>
+                            </div>
+                            <p class="text-black-50">Transfer dana ke 100 akun
+                                bank berbeda dan e-Wallet jadi lebih cepat dan
+                                mudah.</p>
+                            <a href="#">Pelajari lebih lanjut <i
+                                    class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fitur-card bg-white shadow p-4 h-100">
+                            <div class="fitur-header d-flex gap-4 mb-5">
+                                <img src="assets/fitur-img/pendaftaran.png" alt="fitur pendaftaran image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Gratis biaya
+                                    pendaftaran</h5>
+                            </div>
+                            <p class="text-black-50">Hanya dikenakan biaya per
+                                transaksi sukses. Tanpa biaya tambahan.</p>
+                            <a href="#">Pelajari lebih lanjut <i
+                                    class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fitur-card bg-white shadow p-4 h-100">
+                            <div class="fitur-header d-flex gap-4 mb-5">
+                                <img src="assets/fitur-img/integrasi.png" alt="fitur integrasi image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Integrasi mudah dan
+                                    cepat</h5>
+                            </div>
+                            <p class="text-black-50">Tersedia mulai dari plugin
+                                yang siap digunakan hingga API untuk
+                                menyesuaikan kebutuhan bisnis Anda melalui
+                                platform apa pun.</p>
+                            <a href="#">Pelajari lebih lanjut <i
+                                    class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="fitur-card bg-white shadow p-4 h-100">
+                            <div class="fitur-header d-flex gap-4 mb-5">
+                                <img src="assets/fitur-img/proteksi.png" alt="fitur proteksi image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Aman dan
+                                    terpercaya</h5>
+                            </div>
+                            <p class="text-black-50">Dilengkapi sistem keamanan
+                                transaksi yang berlisensi dan diakui kelas
+                                dunia.</p>
+                            <a href="#">Pelajari lebih lanjut <i
+                                    class="bi bi-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payment-section overflow-hidden">
+            <h2 class="text-center lh-base mb-5">Payment gateway Indonesia <span
+                    class="d-block">untuk setiap fase pertumbuhan bisnis
+                    Anda</span></h2>
+            <div class="payment-container container position-relative">
+                <div class="img-back">
+                    <img src="assets/capsule1.png" alt="capsule1 image"
+                        class="img-fluid position-absolute z-0">
+                    <img src="assets/capsule2.png" alt="capsule2 image"
+                        class="img-fluid position-absolute z-0 text-end">
+                </div>
+                <div class="payment-box position-relative row g-4">
+                    <div class="col-md-4">
+                        <div class="payment-card bg-white shadow p-4 h-100">
+                            <div
+                                class="payment-header d-flex align-items-center gap-4 mb-4">
+                                <img
+                                    src="assets/payment-img/online-shop-png.png"
+                                    alt="online-shop image" class="img-fluid">
+                                <h5 class="fw-bold lh-base">Online Shop</h5>
+                            </div>
+                            <div class="payment-body">
+                                <ul>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Terima
+                                        pembayaran online melalui chat.</li>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Tersedia
+                                        notifikasi pembayaran secara
+                                        real-time.</li>
+                                    <li class="text-black-50 lh-base mb-4">Tanpa
+                                        perlu integrasi teknis.</li>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Daftar
+                                        hanya perlu KTP untuk aktivasi GoPay,
+                                        QRIS, dan bank transfer.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="payment-card bg-white shadow p-4 h-100">
+                            <div
+                                class="payment-header d-flex align-items-center gap-4 mb-4">
+                                <img src="assets/payment-img/ecommerce.png" alt="ecommerce image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Startup &
+                                    Ecommerce</h5>
+                            </div>
+                            <div class="payment-body">
+                                <ul>
+                                    <li class="text-black-50 lh-base mb-4">Mudah
+                                        diintegrasikan ke website atau aplikasi
+                                        mobile.</li>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Laporan
+                                        transaksi yang komprehensif dapat
+                                        dipantau dan diunduh melalui dashboard
+                                        Midtrans.</li>
+                                    <li class="text-black-50 lh-base mb-4">Dapat
+                                        memproses transaksi dalam jumlah tinggi
+                                        dengan aman.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="payment-card bg-white shadow p-4 h-100">
+                            <div
+                                class="payment-header d-flex align-items-center gap-4 mb-4">
+                                <img src="assets/payment-img/enterprise.png" alt="enterprise image"
+                                    class="img-fluid">
+                                <h5 class="fw-bold lh-base">Enterprise</h5>
+                            </div>
+                            <div class="payment-body">
+                                <ul>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Tersedia
+                                        API untuk integrasi yang lebih fleksibel
+                                        ke platform apa pun</li>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Kelola
+                                        transaksi dari beberapa outlet
+                                        sekaligus.</li>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Dashboard
+                                        yang dapat dikelola oleh beberapa
+                                        admin.</li>
+                                    <li
+                                        class="text-black-50 lh-base mb-4">Dilengkapi
+                                        sistem keamanan transaksi dan data untuk
+                                        menjaga reputasi bisnis Anda.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="keamanan-section mb-5">
+            <h2 class="text-center mb-5">Keamanan bertransaksi yang unggul</h2>
+            <p class="text-black-50 text-center mb-5">Payment Gateway Indonesia
+                yang dilengkapi dengan deteksi anomali terdepan untuk lindungi
+                proses transaksi dan data Anda.</p>
+            <div
+                class="keamanan-container d-flex justify-content-center text-center mb-5">
+                <div class="keamanan-card">
+                    <div
+                        class="keamanan-img d-flex justify-content-center align-items-center shadow mb-5">
+                        <img src="assets/keamanan-img/bank.png" alt="bank image"
+                            class="img-fluid">
+                    </div>
+                    <p class="text-dark fw-bold">Bank Indonesia</p>
+                </div>
+                <div class="keamanan-card">
+                    <div
+                        class="keamanan-img d-flex justify-content-center align-items-center shadow mb-5"
+                        style="margin-left: 60px;">
+                        <img src="assets/keamanan-img/kominfo.png" alt="kominfo image"
+                            class="img-fluid" style="width: 65px;">
+                    </div>
+                    <p class="text-dark fw-bold"
+                        style="width: 220px;">Kementrian Komunikasi dan
+                        Informatika Republik Indonesia (Kominfo)</p>
+                </div>
+                <div class="keamanan-card">
+                    <div
+                        class="keamanan-img d-flex justify-content-center align-items-center shadow mb-5">
+                        <img src="assets/keamanan-img/aes.png" alt="aos image"
+                            class="img-fluid">
+                    </div>
+                    <p class="text-dark fw-bold">AES 256</p>
+                </div>
+                <div class="keamanan-card">
+                    <div
+                        class="keamanan-img d-flex justify-content-center align-items-center shadow mb-5">
+                        <img src="assets/keamanan-img/pci.png" alt="pci image"
+                            class="img-fluid">
+                    </div>
+                    <p class="text-dark fw-bold">PCI DSS</p>
+                </div>
+                <div class="keamanan-card">
+                    <div
+                        class="keamanan-img d-flex justify-content-center align-items-center shadow mb-5">
+                        <img src="assets/keamanan-img/iso.png" alt="iso image"
+                            class="img-fluid">
+                    </div>
+                    <p class="text-dark fw-bold">ISO 27001</p>
+                </div>
+            </div>
+            <div class="keamanan-btn text-center">
+                <button class="btn text-white fw-bold border-0">Keamanan<i
+                        class="bi bi-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <div class="testimoni-section">
+            <h2 class="text-center text-white">Dipercaya bisnis terkemuka di
+                Indonesia sejak 2012</h2>
+            <div class="testimoni-container d-flex justify-content-center">
+                <div class="testimoni-box d-block text-center">
+                    <img src="assets/testi1.png" alt="testi1 image" class="img-fluid mb-4"
+                        style="width: 60px;">
+                    <p class="text-light px-5 lh-base fst-italic mb-5">
+                        <i class="bi bi-quote fs-4 text-primary"></i>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatem, alias aliquid quibusdam at laudantium optio
+                        ut aut enim sit in dolorem harum consequuntur
+                        consequatur! Ratione laboriosam, ab non id eius
+                        voluptatibus, odio totam saepe aliquid recusandae
+                        deleniti suscipit perferendis? Cumque tempora explicabo
+                        perspiciatis a illum error magnam deserunt reiciendis
+                        distinctio ipsum asperiores dolore dolorem suscipit
+                        expedita eaque, laudantium dolorum?
+                        <i class="bi bi-quote fs-4 text-primary"></i>
+                    </p>
+                    <p class="text-white fw-bold mb-0">Andy Christiawan</p>
+                    <p class="text-white">Direktur - <span
+                            class="text-decoration-underline">Mineral</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="move-media-section">
+            <h3 class="text-white fw-bold text-center  mb-5">Diliput oleh Media</h3>
+            <div class="move-media position-relative d-grid overflow-hidden">
+                <div class="media-image d-flex gap-5">
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/antara.png" alt="antara image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/antara.png" alt="antara image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/berita.png" alt="berita image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/berita.png" alt="berita image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/bisnis.png" alt="bisnis image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/bisnis.png" alt="bisnis image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/detik.png" alt="detik image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-cedetik imagenter align-items-center shadow">
+                        <img src="assets/media-img/detik.png" alt="detik image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/fortune.png" alt="fortune image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/fortune.png" alt="fortune image" class="img-fluid">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/goto.png" alt="goto image" class="img-fluid w-50">
+                    </div>
+                    <div class="media-img d-flex justify-content-center align-items-center shadow">
+                        <img src="assets/media-img/goto.png" alt="goto image" class="img-fluid w-50">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="deskripsi-section mb-5">
+            <div class="deskripsi-container container">
+                <div class="deskripsi-top row g-5">
+                    <div class="col-md-4">
+                        <div class="deskripsi-card">
+                            <h2 class="lh-base mb-5">Selalu ada untuk membantu
+                                Anda</h2>
+                            <p class="text-black-50 mb-5">Apabila Anda ingin
+                                mengetahui lebih lanjut mengenai produk
+                                pembayaran, pendaftaran, atau solusi atas
+                                kendala yang dialami, kami selalu siap membantu
+                                Anda. Hubungi kami lewat media sosial atau
+                                tombol chat di sebelah kanan. Anda juga dapat
+                                mengunjungi Pusat Bantuan kami.</p>
+                            <div class="hubungi-btn">
+                                <button class="btn text-white fw-bold">Hubungi
+                                    Kami<i
+                                        class="bi bi-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="deskripsi-card pt-5">
+                            <div class="accordion mb-4" id="accordionExample">
+                                <div class="accordion-item border-0 mb-4">
+                                    <h2
+                                        class="deskripsi-accordion accordion-header"
+                                        id="headingOne">
+                                        <button
+                                            class="accordion-button rounded-top-4 fs-5 shadow-sm"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne"
+                                            aria-expanded="false"
+                                            aria-controls="collapseOne">
+                                            Apa itu Midtrans?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne"
+                                        data-bs-parent="#accordionExample">
+                                        <div
+                                            class="accordion-body bg-primary bg-opacity-10">
+                                            <p class="text-black-50 p-1">
+                                                Midtrans bergerak di bidang
+                                                finansial berbasis teknologi
+                                                yang menawarkan solusi Payment
+                                                Gateway di Indonesia. Mendukung
+                                                banyak metode pembayaran online
+                                                dan kirim dana (disbursement)
+                                                untuk mudahkan pelanggan lakukan
+                                                transaksi bisnis, serta mudahkan
+                                                Anda fokus kembangkan bisnis
+                                                dengan pililhan untuk kelola
+                                                semua proses pembayaran.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 mb-4">
+                                    <h2
+                                        class="deskripsi-accordion accordion-header"
+                                        id="headingTwo">
+                                        <button
+                                            class="accordion-button rounded-top-4 fs-5 shadow-sm"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseTwo"
+                                            aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Berapa biaya yang dikenakan
+                                            Midtrans?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo"
+                                        data-bs-parent="#accordionExample">
+                                        <div
+                                            class="accordion-body bg-primary bg-opacity-10">
+                                            <p class="text-black-50 p-1">
+                                                Pendaftaran dapat dilakukan
+                                                dengan gratis dan kami hanya
+                                                mengenakan biaya saat transaksi
+                                                berhasil. Implementasi dan
+                                                pemeliharaan selalu gratis.
+                                                Untuk perincian biaya yang
+                                                lengkap, silakan baca
+                                                <a href="#"
+                                                    class="text-decoration-none fst-italic">Biaya</a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 mb-4">
+                                    <h2
+                                        class="deskripsi-accordion accordion-header"
+                                        id="headingThree">
+                                        <button
+                                            class="accordion-button rounded-top-4 fs-5 shadow-sm"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseThree"
+                                            aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Bagaimana saya dapat mulai menerima
+                                            pembayaran dengan Midtrans?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree"
+                                        data-bs-parent="#accordionExample">
+                                        <div
+                                            class="accordion-body bg-primary bg-opacity-10">
+                                            <p class="text-black-50 p-1">
+                                                Klik <a href="#"
+                                                    class="text-decoration-none fst-italic">di
+                                                    sini</a> dan ikuti
+                                                petunjuknya.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-0 mb-4">
+                                    <h2
+                                        class="deskripsi-accordion accordion-header"
+                                        id="headingFour">
+                                        <button
+                                            class="accordion-button rounded-top-4 fs-5 shadow-sm"
+                                            type="button"
+                                            data-bs-toggle="collapse"
+                                            data-bs-target="#collapseFour"
+                                            aria-expanded="false"
+                                            aria-controls="collapseFour">
+                                            Bagaimana Midtrans dapat membantu
+                                            bisnis saya?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour"
+                                        class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour"
+                                        data-bs-parent="#accordionExample">
+                                        <div
+                                            class="accordion-body bg-primary bg-opacity-10">
+                                            <p class="text-black-50 p-1">
+                                                Selain solusi pembayaran online
+                                                dan offline, kami memiliki mitra
+                                                terpercaya yang menyediakan
+                                                sistem
+                                                <a href="#"
+                                                    class="text-decoration-none fst-italic">Point
+                                                    of sales</a> dan mitra yang
+                                                dapat membantu pemasaran bisnis
+                                                F&B Anda melalui Gojek.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="deskripsi-bottom">
+                    <p class="strong text-black fw-bold mb-1">Midtrans, Solusi Payment Gateway Indonesia Terlengkap untuk Bisnis Anda</p>
+                    <div class="deskripsi-quote">
+                        <p class="text-black-50">Dalam sebuah bisnis, pembayaran merupakan sebuah aspek penting dalam menciptakan pengalaman berbelanja yang menyenangkan untuk para pembeli. Wajib bagi pemilik bisnis online untuk menyediakan sistem yang mudah, cepat, dan aman. Hal ini sangat memungkinkan berkat adanya 
+                            <span class="fw-bold text-secondary">Payment Gateway di Indonesia</span> seperti Midtrans.
+                        </p>
+                        <p class="text-black-50">Dengan <a href="#" class="text-decoration-none fst-italic">online payment</a> gateway, pemilik bisnis dapat menawarkan berbagai metode pembayaran seperti GoPay, QRIS, 
+                           <a href="#" class="text-decoration-none fst-italic">virtual account</a>, kartu debit atau kredit, ShopeePay, debit online, cicilan tanpa kartu, dan tunai di gerai seperti Indomaret dan Alfamart. Salah satu kemudahan yang ditawarkan adalah pemilik bisnis cukup miliki satu rekening untuk dapat mengaktifkan semua metode yang dibutuhkan.
+                        </p>
+                        <p class="text-black-50">Kemudahan lainnya dalam menggunakan 
+                            <a href="#" class="text-decoration-none fst-italic">payment gateway</a> adalah semua sistem telah diotomisasi. Pembeli tidak perlu lagi memberikan bukti transaksi dan penjual tidak perlu lagi memakan waktu untuk mengecek mutasi rekening. Dengan payment gateway, baik penjual dan pembeli akan mendapatkan notifikasi secara real-time setelah transaksi berhasil. Hal ini bisa mempersingkat waktu sehingga penjual bisa fokus dengan pengiriman barang atau bagi pemilik bisnis bisa fokus memikirkan strategi mengembangkan bisnisnya.
+                        </p>   
+                        <p class="text-black-50 hidden-paragraph">Semua transaksi yang Anda terima akan tercatat secara otomatis di dashboard Midtrans sehingga memudahkan Anda dalam rekonsiliasi atau pembukuan. Anda dapat mengetahui berapa banyak transaksi yang terjadi di masing-masing metode pembayaran. Semua data bisa langsung Anda ekspor dari Dashboard Midtrans menjadi format .csv atau .xlsx. Tentu ini sangat mempersingkat waktu daripada harus mencatat manual masing-masing sumber rekening yang berbeda, yang mana akan meningkatkan risiko human error.</p>
+                        <p class="text-black-50 hidden-paragraph">Tidak hanya soal menerima pembayaran, kami juga menyediakan produk untuk pengiriman dana atau 
+                            <a href="#" class="text-decoration-none fst-italic">disbursement</a>. Payouts Midtrans menyediakan layanan pengiriman dana ke 100 bank di Indonesia dengan harga flat atau sama rata. Tidak hanya itu, 
+                            <a href="3" class="text-decoration-none fst-italic">Payouts Midtrans</a> juga dapat membantu top up ke e-Money, seperti GoPay dan OVO. Produk ini biasanya digunakan oleh bisnis untuk membayar gaji karyawan, vendor atau supplier, pencairan dana investor atau merchant, top up e-Money untuk insentif karyawan, membuat paket bundling voucher game dengan saldo e-Money, atau membuat proses refund ke pembeli menjadi lebih mudah.
+                        </p>
+                        <p class="text-black-50 hidden-paragraph">Jangan khawatir soal biaya karena yang dikenakan hanya biaya per transaksi sukses. Untuk transaksi yang tidak berhasil, penjual tidak akan dikenakan biaya apa pun. Selain itu, Midtrans tidak akan mengenakan biaya lain-lain, seperti biaya awal atau integrasi. Semua panduan integrasi dapat Anda lihat 
+                            <a href="https://docs.midtrans.com" class="text-decoration-none fst-italic">docs.midtrans.com</a> atau bisa menghubungi tim Support Midtrans.
+                        </p>
+                        <p class="text-black-50 hidden-paragraph">Untuk pendaftaran Midtrans bisa dilakukan dengan mudah. Anda bisa langsung mendaftar melalui 
+                            <a href="https://midtrans.com/passport" class="text-decoration-none fst-italic">midtrans.com/passport</a>. Midtrans menerima pendaftaran bisnis individu ataupun berbadan hukum seperti PT, CV, dan yayasan. Berikut dokumen yang dibutuhkan untuk pendaftaran Midtrans:
+                        </p>
+                        <div class="bisnis-individu hidden-paragraph">
+                            <p class="text-secondary fw-bold mb-1">Bisnis Individu</p>
+                            <ul>
+                                <li class="text-black-50">KTP (untuk WNI) atau KITAS (untuk WNA)</li>
+                                <li class="text-black-50">NPWP (diperlukan apabila ingin mengaktifkan metode pembayaran selain GoPay, QRIS, dan bank transfer)</li>
+                            </ul>
+                        </div>
+                        <div class="badan-usaha hidden-paragraph">
+                            <p class="text-secondary fw-bold mb-1">Badan Usaha (PT, CV, atau Yayasan)</p>
+                            <ul>
+                                <li class="text-black-50">KTP Direktur (untuk WNI) atau Passport dan KITAS (untuk WNA)</li>
+                                <li class="text-black-50">NPWP Bisnis</li>
+                                <li class="text-black-50">Akta Pendirian</li>
+                                <li class="text-black-50">Akta Perubahan</li>
+                                <li class="text-black-50">SK Menkeh</li>
+                            </ul>
+                        </div>
+                        <p class="text-black-50 hidden-paragraph">*Hanya berlaku untuk aktivasi bank transfer, GoPay, dan QRIS. Metode pembayaran lain akan membutuhkan dokumen tambahan. Tunggu apa lagi? Segera gunakan Midtrans, 
+                            <a href="#" class="text-decoration-none fst-italic">payment gateway Indonesia</a> sebagai solusi untuk bisnis Anda. Terima 
+                            <a href="#" class="text-decoration-none fst-italic">pembayaran online </a> dengan lebih dari 20 metode di toko Anda!
+                        </p>
+                    </div>
+                      <div class="read-more-btn text-center">
+                                <button class="btn text-white fw-bold" id="toggleParagraphs">
+                                    Read More
+                                    <i class="bi bi-chevron-down"></i></button>
+                            </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-section">
+            <div class="footer-container container">
+                <div class="footer-box d-flex justify-content-between mb-5">
+                    <div class="footer-media">
+                        <img src="assets/logo.svg" alt="logo image" class="img-fluid mb-5">
+                        <p class="text-white fw-bold fs-5 mb-0">Newsletter</p>
+                        <p class="text-white mb-5">Daftar Newsletter</p>
+                        <div class="media-sci text-white d-flex gap-4 pt-5">
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-youtube"></i>
+                            <i class="bi bi-tiktok"></i>
+                        </div>
+                    </div>
+                    <div class="footer-penggunaan">
+                        <p class="text-white fs-5 mb-4">Penggunaan</p>
+                        <ul class="text-white-50 list-unstyled">
+                            <li  class="mb-3">Startups & Early</li>
+                            <li  class="mb-3">Businesses</li>
+                            <li  class="mb-3">Growing businesses</li>
+                            <li  class="mb-3">Enterprise</li>
+                        </ul>
+                    </div>
+                    <div class="footer-penggunaan">
+                        <p class="text-white fs-5 mb-4">Produk</p>
+                        <ul class="text-white-50 list-unstyled">
+                            <li  class="mb-3">Online Payment</li>
+                            <li  class="mb-3">Payouts</li>
+                            <li  class="mb-3">Biaya</li>
+                        </ul>
+                    </div>
+                    <div class="footer-penggunaan">
+                        <p class="text-white fs-5 mb-4">Panduan</p>
+                        <ul class="text-white-50 list-unstyled">
+                            <li  class="mb-3">Documentation</li>
+                            <li  class="mb-3">Pusat Bantuan</li>
+                            <li  class="mb-3">Blog</li>
+                            <li  class="mb-3">Hubungi Kami</li>
+                            <li  class="mb-3">Status</li>
+                            <li  class="mb-3">Keamanan</li>
+                            <li  class="mb-3">Pemberitahuan Privasi</li>
+                            <li  class="mb-3">Kelola Cookie</li>
+                        </ul>
+                    </div>
+                    <div class="footer-penggunaan">
+                        <p class="text-white fs-5 mb-4">Perusahaan</p>
+                        <ul class="text-white-50 list-unstyled">
+                            <li  class="mb-3">Karir</li>
+                            <li  class="mb-3">Tentang kami</li>
+                            <li  class="mb-3">Newsroom</li>
+                            <li  class="mb-3">Partner</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="text-white">
+                <div class="footer-end d-flex align-items-center justify-content-between pb-5">
+                    <div class="footer-bagian d-flex align-items-center gap-2">
+                        <p class="text-white pt-3">bagian dari</p>
+                        <img src="assets/newlogo.png" alt="newlogo image" class="img-fluid">
+                    </div>
+                    <footer class="footer-copyright text-white">
+                         &copy; 2025 Midtrans (Wan M Alwaliyyu)
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
